@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+ 
+<!-- wwFront:start -->
+<html class="" lang="<%= htmlWebpackPlugin.options.lang %>">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=0" />
+        <base
+            href="<%= htmlWebpackPlugin.options.baseTag?.href %>"
+            target="<%= htmlWebpackPlugin.options.baseTag?.target %>"
+        />
+
+        <% if (htmlWebpackPlugin.options.title) { %>
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <% } %>
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico?_wwcv=<%= htmlWebpackPlugin.options.cacheVersion %>" />
+
+        <link rel="manifest" href="manifest.json?_wwcv=3" />
+        <meta name="theme-color" content="" />
+        <link rel="apple-touch-icon" sizes="48x48" href="public/images/48-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="72x72" href="public/images/72-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="96x96" href="public/images/96-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="128x128" href="public/images/128-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="144x144" href="public/images/144-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="152x152" href="public/images/152-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="192x192" href="public/images/192-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="256x256" href="public/images/256-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="384x384" href="public/images/384-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+<link rel="apple-touch-icon" sizes="512x512" href="public/images/512-SIMBOLO_LOGO_FAVICON_SEM_FUNDO.png?_wwcv=3">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="public/fonts/Phosphor/font.css?_wwcv=3" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<style>:root{ --ww-default-font-family: 'Inter', sans-serif }</style>
+        <style>
+:root {
+--136ac32b-a7ef-4350-9688-bdcc3a9ba3c8: #1DF3D0;
+--31ca3538-cd88-4cd9-bc16-442d8a4430c2: #FFFFFF;
+--fe6daab9-f076-49f6-ace3-e99c938beeb1: #FFFFFF;
+--f625151a-8e39-4d70-9c43-9c9611196b62: #000000;
+--7cb97e5b-c95d-43dc-8bae-0eda65509471: #A1A1AA;
+--f95b5b7a-f001-4a2f-acf1-4af516bc688e: #000000;
+--8eaec61e-dbd9-4f73-aba3-2d99fa2a3a17: #E1E8ED;
+--90df3288-e262-4b81-94a8-0553f4ca8032: #F5F5F5;
+--1b4db6de-c852-412f-9bb0-0d9aa219f5fd: #F0F0F0;
+--7878f6dd-6f12-453a-8645-c614b12931dc: #D5B607;
+--d36c3e17-3d9a-4924-8e11-63c1f293de65: #D5B607;
+--bc8e7c55-4a11-4afb-93ee-935ae8366258: #07A8D5;
+--d3a49805-61f0-4926-8c06-2e1f90e2150d: #FFFFFF;
+--4fd32e58-0ffb-4053-af73-60b8aa50f3d0: #000000;
+--e99015b2-d7be-4178-bf00-1f92dc4144f1: #f6f6f6;
+--109b4a3f-df38-480a-96de-6449b87720cd: #e7e7e7;
+--9fd322cb-5399-4536-bf8e-939a194d05db: #b0b0b0;
+--fdf68224-d7d8-4f83-9fb5-314d826f9a5f: #888888;
+--f104bb44-6aab-4947-8e96-cb89cc15b033: #6d6d6d;
+--cef0aae5-9d67-4fcf-9d79-755caaaf6938: #5d5d5d;
+--32701286-8243-4e7c-ae37-942ffd9813f5: #3d3d3d;
+--892b3030-2c4b-4a72-b57c-c33abd971952: #222222;
+--f044ba99-3ee7-4ae3-ab37-c3484f7b4050: #060f11;
+--cd42601f-3954-4e4e-9e95-51692b8dcebc: #1F79FE;
+--3c270a3b-19ff-48ed-8623-eac8c6bd1ab9: #0E3C7F;
+--b2d49095-73cd-4632-b124-3d4143f7c49f: 96px;
+--17765de1-737d-44c4-9500-c97f2432130c: 45px;
+--0a048f45-5558-4f22-b33b-29b6b955b7fa: 16px;
+--dbc2c56a-8941-4906-aa62-03a88727a994: 256px;
+--4932bda3-f7ea-4905-8b9c-740fe9463b6d: #FFFFFF;
+--a6d57a2f-b240-402d-958b-7e612708a37b: #000000;
+--ae5eb0d2-5971-4a47-8307-6f6cb4f8e314: #f6f6f6;
+--4bf361aa-54a8-4ddd-9f01-eded51616ed2: #e7e7e7;
+--09d8e6fe-a142-4d70-9e9f-017a2296e898: #b0b0b0;
+--330b3d13-764c-44b8-9974-8bbc519411be: #888888;
+--14397b47-e12a-4ab7-becb-e77fd8d89972: #6d6d6d;
+--84a8b515-e613-42d9-b0c8-da2d4a84eb60: #5d5d5d;
+--df12a772-23fc-4fa4-8ac0-e6d60c78100f: #3d3d3d;
+--7f437e1f-86d4-4ad9-8417-d3c0808ab4b5: #222222;
+--682e4e18-b455-4c05-9690-3e4edc875257: #060f11;
+--d70b7472-b966-4742-9285-63118edd81c3: #1F79FE;
+--d96f26ea-82e5-432b-8de2-8f8266e9289d: #0E3C7F;
+--f8f4ecaa-d0c0-4f03-85ef-612b9d9c31ab: 96px;
+--34cf215e-55f0-4f6b-9d32-70dd1707ba82: 45px;
+--e9c57d32-e7f0-426d-830f-f06cad642b83: 16px;
+--8d6c682d-f2c7-4be5-8b01-c6bc819c0d1b: 256px;}
+.ww-app-theme-dark {
+--31ca3538-cd88-4cd9-bc16-442d8a4430c2: #1C1C1C;
+--fe6daab9-f076-49f6-ace3-e99c938beeb1: #252526;
+--f625151a-8e39-4d70-9c43-9c9611196b62: #e1e8ed;
+--7cb97e5b-c95d-43dc-8bae-0eda65509471: #A1A1AA;
+--f95b5b7a-f001-4a2f-acf1-4af516bc688e: #FFFFFF;
+--8eaec61e-dbd9-4f73-aba3-2d99fa2a3a17: #3D3D43;
+--90df3288-e262-4b81-94a8-0553f4ca8032: #252526;
+--7878f6dd-6f12-453a-8645-c614b12931dc: #07A8D5;
+--d36c3e17-3d9a-4924-8e11-63c1f293de65: #D5B607;
+--bc8e7c55-4a11-4afb-93ee-935ae8366258: #07A8D5;}
+</style>
+        <link href="https://cdn.weweb.app/public/libs/weweb-icons/css/weweb-icons.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.app/public/libs/font-awesome/5.6.3/css/fontawesome.min.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.io/public/icons/heroicons/1.0.0/style.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://cdn.weweb.io/public/icons/phosphor/1.0.0/regular/phosphor-style.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <% for (let link of htmlWebpackPlugin.options?.alternateLinks || []) { %>
+        <link rel="<%= link.rel %>" hreflang="<%= link.hreflang %>" href="<%= link.href %>" />
+        <% } %> <% if (htmlWebpackPlugin.options.structuredData) { %>
+        <script type="application/ld+json">
+            <%= htmlWebpackPlugin.options.structuredData %>
+        </script>
+        <% } %> <%= htmlWebpackPlugin.options.scripts?.head %>
+    </head>
+    <body style="margin: 0; font-family: var(--ww-default-font-family, unset)">
+        <noscript>
+            <strong>
+                We're sorry but this website doesn't work properly without JavaScript enabled. Please enable it to
+                continue.
+            </strong>
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+        <%= htmlWebpackPlugin.options.scripts?.body %>
+    </body>
+</html>
+<!-- wwFront:end -->

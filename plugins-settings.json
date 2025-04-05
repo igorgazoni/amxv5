@@ -1,0 +1,56 @@
+{
+    "1fa0dd68-5069-436c-9a7d-3b54c340f1fa": {
+        "id": "dc65efe1-1b4f-43b6-9831-945e9e0c9971",
+        "name": "Supabase Auth",
+        "designId": "581a8e80-4b00-4e09-9e6e-f284c4ca07a7",
+        "pluginId": "1fa0dd68-5069-436c-9a7d-3b54c340f1fa",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJyb2xlIjogImFub24iLAogICJpc3MiOiAic3VwYWJhc2UiLAogICJpYXQiOiAxNzE1MDUwODAwLAogICJleHAiOiAxODcyODE3MjAwCn0.aRsyCIAnCCNmF1sl0Xg5ByYDfKon4PigMZOzLZHx_uk",
+            "roleType": "string",
+            "projectUrl": "https://supabase.agenciaspartakus.com.br",
+            "userRoleTable": null,
+            "afterForbiddenPageId": "dffe29d1-fcc6-4939-ab32-3b5ff116cd4d",
+            "afterNotSignInPageId": "dffe29d1-fcc6-4939-ab32-3b5ff116cd4d",
+            "userRoleTableUserColumn": "id"
+        }
+    },
+    "69d4a5bb-09a3-4f3d-a94e-667c21c057eb": {
+        "id": "860a2e27-db12-410c-a44f-3c04292b417a",
+        "name": "NPM",
+        "designId": "581a8e80-4b00-4e09-9e6e-f284c4ca07a7",
+        "pluginId": "69d4a5bb-09a3-4f3d-a94e-667c21c057eb",
+        "publicData": {
+            "packages": [
+                {
+                    "link": "https://github.com/pradeep-mishra/csvjson#readme",
+                    "name": "csvjson",
+                    "version": "5.1.0",
+                    "instanceName": ""
+                }
+            ]
+        }
+    },
+    "f9ef41c3-1c53-4857-855b-f2f6a40b7186": {
+        "id": "0abd8c94-c380-4991-a047-4202020f1e90",
+        "name": "Supabase",
+        "designId": "581a8e80-4b00-4e09-9e6e-f284c4ca07a7",
+        "pluginId": "f9ef41c3-1c53-4857-855b-f2f6a40b7186",
+        "publicData": {
+            "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJyb2xlIjogImFub24iLAogICJpc3MiOiAic3VwYWJhc2UiLAogICJpYXQiOiAxNzE1MDUwODAwLAogICJleHAiOiAxODcyODE3MjAwCn0.aRsyCIAnCCNmF1sl0Xg5ByYDfKon4PigMZOzLZHx_uk",
+            "projectUrl": "https://supabase.agenciaspartakus.com.br",
+            "realtimeTables": {
+                "amx_usuarios": true,
+                "amx_agregados": true,
+                "amx_montagem_cargas": true,
+                "amx_montagem_cargas_agregados": true
+            }
+        }
+    },
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "187b8815-61aa-484d-b171-fcbbed1b96cd",
+        "name": "REST API",
+        "designId": "581a8e80-4b00-4e09-9e6e-f284c4ca07a7",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    }
+}
